@@ -10,14 +10,14 @@
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
 
         <link rel="stylesheet" href="{{asset('css/app.css')}}">
+
     </head>
     <body>
         <div class="flex-center position-ref full-height">
-            <div class="content" id="app">
-                <div class="title m-b-md">
-                   <example-component></example-component>
-                </div>
+            <div id="app">
+                <App></App>
             </div>
+
         </div>
     </body>
     <script src="{{asset('js/app.js')}}"></script>
