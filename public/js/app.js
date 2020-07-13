@@ -2523,12 +2523,160 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   props: {
     source: String
   },
   data: function data() {
     return {
+      drawer: false,
+      tab: null,
+      itemstab: [{
+        tab: 'elements',
+        icon: 'mdi-account',
+        title: 'Clients',
+        total_count: '250',
+        content: 'Little description about progrss from previous months can be added here.'
+      }, {
+        tab: 'device_overview',
+        icon: 'mdi-bag-personal-outline',
+        title: 'Sold',
+        total_count: '16612',
+        content: 'Little description about progrss from previous months can be added here.'
+      }, {
+        tab: 'misconfigured_devices',
+        icon: 'mdi-account',
+        title: 'Clients',
+        total_count: '250',
+        content: 'Little description about progrss from previous months can be added here.'
+      }],
+      text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
       primaryDrawer: {
         model: null,
         mini: false,
@@ -2561,6 +2709,16 @@ __webpack_require__.r(__webpack_exports__);
       }, {
         title: 'Production',
         icon: 'mdi-decagram'
+      }],
+      mobiles: [{
+        title: 'Home',
+        icon: 'mdi-home-city'
+      }, {
+        title: 'My Account',
+        icon: 'mdi-account'
+      }, {
+        title: 'Users',
+        icon: 'mdi-account-group-outline'
       }]
     };
   }
@@ -7029,7 +7187,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n.test-design[data-v-766dcc42]{\n    border-right: 2px solid #CAD5E0;\n}\n.test-design[data-v-766dcc42]:before{\n    content: '';\n    display: E2E3E6;\n    position: absolute;\n    top: 24px;\n    right: -9px;\n    width: 17px;\n    height: 17px;\n    background: #F6F7FB;\n    border-left: 2px solid #CAD5E0;\n    border-top: 2px solid #CAD5E0;\n    -moz-transform:rotate(-45deg);\n    -webkit-transform:rotate(-45deg);\n}\n.rectangle-top[data-v-766dcc42]:after{\n    content: '';\n    color: black;\n    display: block;\n    position: absolute;\n    top: 340px;\n    right: -15px;\n    width: 15px;\n    height: 15px;\n    background: #ffffff;\n    border-left: 2px solid #CAD5E0;\n    border-right: 0px  #CAD5E0;\n    border-bottom: 2px solid #CAD5E0;\n    border-top: 0px  #CAD5E0;\n    border-bottom-left-radius:10px;\n    /*box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);*/\n}\n.rectangle-bottom[data-v-766dcc42]:after{\n    content: '';\n    color: #E2E3E6;\n    display: block;\n    position: absolute;\n    top: 411px;\n    right: -15px;\n    width: 15px;\n    height: 15px;\n    background: #ffffff;\n    border-left: 2px solid #CAD5E0;\n    border-right: 0px solid #CAD5E0;\n    border-bottom: 0px  #CAD5E0;\n    border-top: 2px solid #CAD5E0;\n    border-top-left-radius:10px;\n    /*box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);*/\n}\n.rectangle[data-v-766dcc42]:after{\n    content: '||';\n    color: black;\n    font-size: 30px;\n    display: block;\n    position: absolute;\n    top: 40%;\n    right: -14px;\n    width: 20px;\n    height: 60px;\n    background: #ffffff;\n    /*border-right: 2px solid #CAD5E0;*/\n    /*border-bottom: 2px solid #CAD5E0;*/\n    /*border-top: 2px solid #CAD5E0;*/\n    border-top-right-radius: 10px;\n    border-bottom-right-radius: 10px;\n    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);\n}\n.v-navigation-drawer[data-v-766dcc42]{\n    overflow: visible;\n    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);\n}\n", ""]);
+exports.push([module.i, "\n.test-design[data-v-766dcc42]{\n    border-right: 2px solid #CAD5E0;\n}\n.test-design[data-v-766dcc42]:before{\n    content: '';\n    display: block;\n    position: absolute;\n    top: 24px;\n    right: -9px;\n    width: 17px;\n    height: 17px;\n    background: #F6F7FB;\n    border-left: 2px solid #CAD5E0;\n    border-top: 2px solid #CAD5E0;\n    -moz-transform:rotate(-45deg);\n    -webkit-transform:rotate(-45deg);\n}\n.rectangle-top[data-v-766dcc42]:after{\n    content: '';\n    color: black;\n    display: block;\n    position: absolute;\n    top: 340px;\n    right: -15px;\n    width: 15px;\n    height: 15px;\n    background: #ffffff;\n    border-left: 2px solid #CAD5E0;\n    border-right: 0px  #CAD5E0;\n    border-bottom: 2px solid #CAD5E0;\n    border-top: 0px  #CAD5E0;\n    border-bottom-left-radius:10px;\n    /*box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);*/\n}\n.rectangle-bottom[data-v-766dcc42]:after{\n    content: '';\n    color: #E2E3E6;\n    display: block;\n    position: absolute;\n    top: 411px;\n    right: -15px;\n    width: 15px;\n    height: 15px;\n    background: #ffffff;\n    border-left: 2px solid #CAD5E0;\n    border-right: 0px solid #CAD5E0;\n    border-bottom: 0px  #CAD5E0;\n    border-top: 2px solid #CAD5E0;\n    border-top-left-radius:10px;\n    /*box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);*/\n}\n.rectangle[data-v-766dcc42]:after{\n    content: '||';\n    color: black;\n    font-size: 30px;\n    display: block;\n    position: absolute;\n    top: 40%;\n    right: -14px;\n    width: 20px;\n    height: 60px;\n    background: #ffffff;\n    /*border-right: 2px solid #CAD5E0;*/\n    /*border-bottom: 2px solid #CAD5E0;*/\n    /*border-top: 2px solid #CAD5E0;*/\n    border-top-right-radius: 10px;\n    border-bottom-right-radius: 10px;\n    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);\n}\n.v-navigation-drawer[data-v-766dcc42]{\n    overflow: visible;\n    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);\n}\n", ""]);
 
 // exports
 
@@ -39509,9 +39667,157 @@ var render = function() {
     { staticStyle: { "background-color": "#F6F7FB" }, attrs: { id: "test" } },
     [
       _c(
+        "div",
+        { staticClass: "hidden-md-and-up" },
+        [
+          _c(
+            "v-app-bar",
+            [
+              _c(
+                "v-toolbar-items",
+                [
+                  _c(
+                    "v-list-item-avatar",
+                    [_c("v-img", { attrs: { src: "images/trapmelogo.png" } })],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "v-list-item-content",
+                    [
+                      _c("v-img", {
+                        attrs: {
+                          height: "50",
+                          width: "50",
+                          src: "images/trapMe.png"
+                        }
+                      })
+                    ],
+                    1
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c("v-spacer"),
+              _vm._v(" "),
+              _c(
+                "v-toolbar-items",
+                [
+                  _c("span", [
+                    _c("img", {
+                      attrs: { src: "images/john.png", width: "60px" }
+                    })
+                  ]),
+                  _vm._v(" "),
+                  _c(
+                    "v-btn",
+                    {
+                      on: {
+                        click: function($event) {
+                          $event.stopPropagation()
+                          _vm.drawer = !_vm.drawer
+                        }
+                      }
+                    },
+                    [
+                      _c("v-icon", { attrs: { large: "", left: "" } }, [
+                        _vm._v("mdi-menu")
+                      ])
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "v-navigation-drawer",
+            {
+              attrs: { absolute: "", temporary: "", right: "" },
+              model: {
+                value: _vm.drawer,
+                callback: function($$v) {
+                  _vm.drawer = $$v
+                },
+                expression: "drawer"
+              }
+            },
+            [
+              _c("v-divider"),
+              _vm._v(" "),
+              _c(
+                "v-list",
+                { staticClass: "py-0", attrs: { dense: "", nav: "" } },
+                [
+                  _c(
+                    "v-list-item",
+                    [
+                      _c(
+                        "v-list-item-avatar",
+                        [
+                          _c("v-img", {
+                            attrs: { src: "images/trapmelogo.png" }
+                          })
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "v-list-item-content",
+                        [
+                          _c("v-img", {
+                            staticClass: "img-thumbnail",
+                            attrs: { src: "images/trapMe.png" }
+                          })
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _vm._l(_vm.items, function(item) {
+                    return _c(
+                      "v-list-item",
+                      { key: item.title, attrs: { link: "" } },
+                      [
+                        _c(
+                          "v-list-item-icon",
+                          [_c("v-icon", [_vm._v(_vm._s(item.icon))])],
+                          1
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "v-list-item-content",
+                          [
+                            _c("v-list-item-title", [
+                              _vm._v(_vm._s(item.title))
+                            ])
+                          ],
+                          1
+                        )
+                      ],
+                      1
+                    )
+                  })
+                ],
+                2
+              )
+            ],
+            1
+          )
+        ],
+        1
+      ),
+      _vm._v(" "),
+      _c(
         "v-navigation-drawer",
         {
-          staticClass: "test-design clickable-b",
+          staticClass: "test-design clickable-b hidden-sm-and-down",
           attrs: {
             "mini-variant": _vm.primaryDrawer.mini,
             "mini-variant-width": _vm.primaryDrawer.miniWidth,
@@ -39583,8 +39889,6 @@ var render = function() {
           _vm._v(" "),
           _c("div", { staticClass: "mid-design" }),
           _vm._v(" "),
-          _c("div", { staticClass: "rectangle-top" }),
-          _vm._v(" "),
           _c("div", {
             staticClass: "rectangle",
             on: {
@@ -39593,11 +39897,157 @@ var render = function() {
                 _vm.primaryDrawer.mini = !_vm.primaryDrawer.mini
               }
             }
-          }),
-          _vm._v(" "),
-          _c("div", { staticClass: "rectangle-bottom" })
+          })
         ],
         1
+      ),
+      _vm._v(" "),
+      _c(
+        "v-navigation-drawer",
+        {
+          staticClass: "hidden-sm-and-down",
+          attrs: { absolute: "", permanent: "", right: "", width: "25%" }
+        },
+        [
+          [
+            _c(
+              "v-toolbar",
+              { attrs: { flat: "", app: "" } },
+              [
+                _c("v-spacer"),
+                _vm._v(" "),
+                _c(
+                  "v-badge",
+                  { attrs: { color: "red", content: "6", left: "" } },
+                  [
+                    _c("v-icon", { attrs: { left: "" } }, [_vm._v("mdi-bell ")])
+                  ],
+                  1
+                ),
+                _vm._v(" "),
+                _c("span", [
+                  _c("img", {
+                    attrs: { src: "images/john.png", width: "50px" }
+                  })
+                ]),
+                _vm._v(" "),
+                _c("span", [_vm._v("JOHN DOE")])
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _c("v-toolbar", { attrs: { flat: "" } }, [
+              _c("div", { staticStyle: { "padding-left": "20px" } }, [
+                _c("br"),
+                _vm._v(" "),
+                _c("h3", [_vm._v("Overview")])
+              ])
+            ]),
+            _vm._v(" "),
+            _c(
+              "div",
+              [
+                _c(
+                  "v-tabs",
+                  {
+                    model: {
+                      value: _vm.tab,
+                      callback: function($$v) {
+                        _vm.tab = $$v
+                      },
+                      expression: "tab"
+                    }
+                  },
+                  [
+                    _c("v-tab", [_vm._v("Elements")]),
+                    _vm._v(" "),
+                    _c("v-tab", [_vm._v("Device Overview")]),
+                    _vm._v(" "),
+                    _c("v-tab", [_vm._v("Misconfigured Devices")])
+                  ],
+                  1
+                ),
+                _vm._v(" "),
+                _c(
+                  "v-tabs-items",
+                  {
+                    model: {
+                      value: _vm.tab,
+                      callback: function($$v) {
+                        _vm.tab = $$v
+                      },
+                      expression: "tab"
+                    }
+                  },
+                  _vm._l(_vm.itemstab, function(item) {
+                    return _c(
+                      "v-tab-item",
+                      { key: item.tab },
+                      [
+                        _c(
+                          "v-card",
+                          { attrs: { flat: "" } },
+                          [
+                            _c(
+                              "v-card-text",
+                              [
+                                _c(
+                                  "v-card-title",
+                                  [
+                                    _c(
+                                      "v-icon",
+                                      {
+                                        attrs: {
+                                          large: "",
+                                          left: "",
+                                          color: "#00E5FF"
+                                        }
+                                      },
+                                      [
+                                        _vm._v(
+                                          "\n                                            " +
+                                            _vm._s(item.icon) +
+                                            "\n                                        "
+                                        )
+                                      ]
+                                    ),
+                                    _vm._v(" "),
+                                    _c(
+                                      "span",
+                                      { staticClass: "title font-weight-dark" },
+                                      [_vm._v(_vm._s(item.title))]
+                                    )
+                                  ],
+                                  1
+                                ),
+                                _vm._v(" "),
+                                _c("div", [
+                                  _c("h4", [
+                                    _vm._v(
+                                      "Total Count: " + _vm._s(item.total_count)
+                                    )
+                                  ])
+                                ]),
+                                _vm._v(" "),
+                                _c("div", [_vm._v(_vm._s(item.content))])
+                              ],
+                              1
+                            )
+                          ],
+                          1
+                        )
+                      ],
+                      1
+                    )
+                  }),
+                  1
+                )
+              ],
+              1
+            )
+          ]
+        ],
+        2
       ),
       _vm._v(" "),
       _c("v-main")
@@ -99076,7 +99526,7 @@ __webpack_require__.r(__webpack_exports__);
 vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(vue_router__WEBPACK_IMPORTED_MODULE_1__["default"]);
 var routes = [{
   path: '/',
-  redirect: '/testadmin'
+  redirect: '/testbase'
 }, {
   path: '/login',
   component: _components_LoginComponent__WEBPACK_IMPORTED_MODULE_2__["default"],
